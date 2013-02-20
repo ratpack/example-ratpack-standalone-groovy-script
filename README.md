@@ -1,0 +1,1 @@
+An example of a Ratpack app as a standalone Groovy script.
