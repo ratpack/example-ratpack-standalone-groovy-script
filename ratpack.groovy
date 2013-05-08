@@ -2,6 +2,7 @@
 @Grab(value = "org.ratpack-framework:ratpack-groovy:0.7.0-SNAPSHOT", changing = true)
 import static org.ratpackframework.groovy.RatpackScript.ratpack
 import static org.ratpackframework.routing.Handlers.assets
+import org.ratpackframework.groovy.templating.TemplateRenderer
 
 // You can change anything in the ratpack {} closure without needing to restart
 
@@ -12,7 +13,7 @@ ratpack {
        }
 
        get("date") {
-           response.send "date.html"
+           context.get(TemplateRenderer).render("date.html")
        }
 
 	   route assets("public")
