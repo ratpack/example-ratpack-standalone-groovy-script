@@ -1,8 +1,9 @@
 An example of a Ratpack app as a standalone Groovy script.
 
+Uses Groovy's built in [Grape](http://groovy.codehaus.org/Grape) dependency resolution engine for fetching Ratpack.
+
 ## Requirements 
 
-* Java 7 (for now)
 * Groovy 2.x
 
 ## Instructions
