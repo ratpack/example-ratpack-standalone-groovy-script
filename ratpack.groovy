@@ -1,5 +1,5 @@
-@GrabResolver(name = "Sonatype OSS Snapshots", root = "https://oss.sonatype.org/content/repositories/snapshots", m2Compatible = true)
-@Grab(value = "org.ratpack-framework:ratpack-groovy:0.9.0-SNAPSHOT", changing = true)
+@GrabResolver("https://oss.jfrog.org/artifactory/repo")
+@Grab(value = "org.ratpack-framework:ratpack-groovy:0.9.0-SNAPSHOT")
 import static org.ratpackframework.groovy.RatpackScript.ratpack
 import org.ratpackframework.groovy.templating.TemplateRenderer
 
