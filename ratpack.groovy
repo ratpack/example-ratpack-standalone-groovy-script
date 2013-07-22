@@ -1,5 +1,5 @@
 @GrabResolver("https://oss.jfrog.org/artifactory/repo")
-@Grab(value = "org.ratpack-framework:ratpack-groovy:0.9.0-SNAPSHOT")
+@Grab("org.ratpack-framework:ratpack-groovy:0.9.0-SNAPSHOT")
 import static org.ratpackframework.groovy.RatpackScript.ratpack
 import org.ratpackframework.groovy.templating.TemplateRenderer
 
