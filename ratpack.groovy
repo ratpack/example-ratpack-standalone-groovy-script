@@ -11,8 +11,8 @@ ratpack {
             response.send "This is the app root (also try: /date and /some.txt)"
         }
 
-        get("date") {
-            get(TemplateRenderer).render "date.html"
+        get("date") { TemplateRenderer renderer ->
+            renderer.render "date.html"
         }
 
         assets "public"
