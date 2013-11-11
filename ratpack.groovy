@@ -1,7 +1,6 @@
 @GrabResolver("https://oss.jfrog.org/artifactory/repo")
-@Grab("org.ratpack-framework:ratpack-groovy:0.9.0-SNAPSHOT")
-import static ratpack.groovy.RatpackScript.ratpack
-import static ratpack.groovy.Template.groovyTemplate
+@Grab("io.ratpack:ratpack-groovy:0.9.0-SNAPSHOT")
+import static ratpack.groovy.Groovy.*
 
 // You can change anything in the ratpack {} closure without needing to restart
 
