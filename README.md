@@ -4,7 +4,7 @@ Uses Groovy's built in [Grape](http://groovy.codehaus.org/Grape) dependency reso
 
 ## Requirements 
 
-* Groovy 2.x
+* Groovy 2.4.0+
 
 ## Instructions
 
