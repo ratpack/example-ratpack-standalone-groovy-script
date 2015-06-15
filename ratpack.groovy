@@ -1,5 +1,5 @@
 @GrabResolver(name="OJO", root="https://oss.jfrog.org/artifactory/repo")
-@Grab("io.ratpack:ratpack-groovy:0.9.15-SNAPSHOT")
+@Grab("io.ratpack:ratpack-groovy:0.9.17")
 import static ratpack.groovy.Groovy.ratpack
 import static ratpack.groovy.Groovy.groovyMarkupTemplate
 import ratpack.groovy.template.MarkupTemplateModule
@@ -8,7 +8,7 @@ import ratpack.groovy.template.MarkupTemplateModule
 
 ratpack {
     bindings {
-        add new MarkupTemplateModule()
+        module MarkupTemplateModule
     }
     handlers {
         get {
