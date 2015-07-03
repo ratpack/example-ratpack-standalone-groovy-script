@@ -1,5 +1,5 @@
 @GrabResolver(name="OJO", root="https://oss.jfrog.org/artifactory/repo")
-@Grab("io.ratpack:ratpack-groovy:0.9.17")
+@Grab("io.ratpack:ratpack-groovy:0.9.18")
 import static ratpack.groovy.Groovy.ratpack
 import static ratpack.groovy.Groovy.groovyMarkupTemplate
 import ratpack.groovy.template.MarkupTemplateModule
@@ -19,6 +19,6 @@ ratpack {
             render groovyMarkupTemplate("date.gtpl")
         }
 
-        assets "public"
+        files { dir "public" }
     }
 }
